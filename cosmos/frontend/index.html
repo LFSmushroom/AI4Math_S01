@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI4Math-Cosmos | 数学宇宙星空</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+            }
+        }
+    </script>
+</head>
+<body>
+
+    <div id="canvas-container"></div>
+
+    <!-- Top bar -->
+    <div id="top-bar">
+        <div id="title">
+            AI4Math-Cosmos
+            <span class="subtitle">数学宇宙星空</span>
+        </div>
+        <div style="display:flex;align-items:center;gap:16px;">
+            <div id="simulate-toggle">
+                <label for="simulate-check">模拟 AI</label>
+                <input type="checkbox" id="simulate-check" checked>
+            </div>
+            <a id="gh-link" href="https://github.com/YOUR_USERNAME/AI4Math" target="_blank">GitHub</a>
+        </div>
+    </div>
+
+    <!-- Info panel -->
+    <div id="info-panel" class="hidden">
+        <div class="node-name" id="panel-name"></div>
+        <div class="node-area" id="panel-area"></div>
+        <div class="node-desc" id="panel-desc"></div>
+        <div class="node-meta">
+            <span>重要度: <b id="panel-importance">-</b></span>
+            <span>AI难度: <b id="panel-difficulty">-</b></span>
+        </div>
+        <button id="solve-btn">启动 AI 探索</button>
+        <div id="panel-status"></div>
+    </div>
+
+    <!-- Bottom hint -->
+    <div id="bottom-hint">鼠标拖拽旋转 &nbsp;|&nbsp; 滚轮缩放 &nbsp;|&nbsp; 点击星体探索</div>
+
+    <!-- Toast -->
+    <div id="toast"></div>
+
+    <script type="module" src="/static/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,2315 @@
+{
+  "meta": {
+    "total_nodes": 100,
+    "solved_count": 50,
+    "unsolved_count": 50,
+    "total_edges": 120,
+    "coordinate_system": "fibonacci_sphere_3d",
+    "radius": 10.0
+  },
+  "nodes": [
+    {
+      "id": "thm-000",
+      "name": "Pythagorean Theorem",
+      "description": "a\u00b2 + b\u00b2 = c\u00b2 for right triangles",
+      "area": "Geometry",
+      "importance": 4,
+      "ai_difficulty": 1,
+      "status": "solved",
+      "pos": [
+        -0.1793,
+        9.887,
+        0.2971
+      ],
+      "related": [
+        "thm-030",
+        "opg-017"
+      ]
+    },
+    {
+      "id": "thm-001",
+      "name": "Prime Number Theorem",
+      "description": "Distribution of primes ~ x / ln(x)",
+      "area": "Number Theory",
+      "importance": 2,
+      "ai_difficulty": 3,
+      "status": "solved",
+      "pos": [
+        -1.3847,
+        9.7608,
+        1.3615
+      ],
+      "related": [
+        "thm-002",
+        "thm-005"
+      ]
+    },
+    {
+      "id": "thm-002",
+      "name": "Fundamental Theorem of Arithmetic",
+      "description": "Unique prime factorization of integers",
+      "area": "Number Theory",
+      "importance": 2,
+      "ai_difficulty": 2,
+      "status": "solved",
+      "pos": [
+        0.0186,
+        9.4308,
+        -2.9002
+      ],
+      "related": [
+        "thm-001",
+        "thm-005",
+        "thm-021"
+      ]
+    },
+    {
+      "id": "thm-003",
+      "name": "Fundamental Theorem of Algebra",
+      "description": "Every non-constant polynomial has a complex root",
+      "area": "Algebra",
+      "importance": 2,
+      "ai_difficulty": 1,
+      "status": "solved",
+      "pos": [
+        2.139,
+        9.232,
+        2.5529
+      ],
+      "related": [
+        "thm-020",
+        "thm-027"
+      ]
+    },
+    {
+      "id": "thm-004",
+      "name": "Four Color Theorem",
+      "description": "Any planar map is 4-colorable",
+      "area": "Graph Theory",
+      "importance": 4,
+      "ai_difficulty": 1,
+      "status": "solved",
+      "pos": [
+        -4.1353,
+        9.2706,
+        -0.8486
+      ],
+      "related": [
+        "thm-034",
+        "opg-009"
+      ]
+    },
+    {
+      "id": "thm-005",
+      "name": "Fermat's Last Theorem",
+      "description": "x\u207f + y\u207f = z\u207f has no integer solutions for n>2",
+      "area": "Number Theory",
+      "importance": 4,
+      "ai_difficulty": 4,
+      "status": "solved",
+      "pos": [
+        3.9386,
+        9.2057,
+        -2.6082
+      ],
+      "related": [
+        "thm-001",
+        "thm-002",
+        "thm-021",
+        "thm-022"
+      ]
+    },
+    {
+      "id": "thm-006",
+      "name": "Poincar\u00e9 Conjecture",
+      "description": "Every simply connected closed 3-manifold is homeomorphic to S\u00b3",
+      "area": "Topology",
+      "importance": 2,
+      "ai_difficulty": 1,
+      "status": "solved",
+      "pos": [
+        -1.3961,
+        8.8893,
+        4.4371
+      ],
+      "related": [
+        "thm-016",
+        "thm-023"
+      ]
+    },
+    {
+      "id": "thm-007",
+      "name": "Intermediate Value Theorem",
+      "description": "Continuous f on [a,b] attains all values between f(a) and f(b)",
+      "area": "Analysis",
+      "importance": 2,
+      "ai_difficulty": 2,
+      "status": "solved",
+      "pos": [
+        -2.5835,
+        8.8472,
+        -4.5071
+      ],
+      "related": [
+        "thm-008",
+        "thm-013"
+      ]
+    },
+    {
+      "id": "thm-008",
+      "name": "Mean Value Theorem",
+      "description": "f(b)-f(a) = f'(c)(b-a) for some c in (a,b)",
+      "area": "Analysis",
+      "importance": 2,
+      "ai_difficulty": 1,
+      "status": "solved",
+      "pos": [
+        5.1037,
+        8.5546,
+        2.0543
+      ],
+      "related": [
+        "thm-007",
+        "thm-013",
+        "thm-026"
+      ]
+    },
+    {
+      "id": "thm-009",
+      "name": "Central Limit Theorem",
+      "description": "Sample mean distribution converges to normal",
+      "area": "Probability",
+      "importance": 4,
+      "ai_difficulty": 2,
+      "status": "solved",
+      "pos": [
+        -5.5004,
+        7.94,
+        2.1524
+      ],
+      "related": []
+    },
+    {
+      "id": "thm-010",
+      "name": "Euler's Formula",
+      "description": "e^(i\u03c0) + 1 = 0",
+      "area": "Complex Analysis",
+      "importance": 4,
+      "ai_difficulty": 4,
+      "status": "solved",
+      "pos": [
+        2.5086,
+        7.96,
+        -5.3213
+      ],
+      "related": [
+        "thm-018",
+        "opg-021"
+      ]
+    },
+    {
+      "id": "thm-011",
+      "name": "Cauchy-Schwarz Inequality",
+      "description": "|\u27e8u,v\u27e9| \u2264 \u2016u\u2016\u00b7\u2016v\u2016",
+      "area": "Linear Algebra",
+      "importance": 2,
+      "ai_difficulty": 4,
+      "status": "solved",
+      "pos": [
+        1.9851,
+        8.0683,
+        5.7563
+      ],
+      "related": [
+        "thm-012",
+        "thm-036"
+      ]
+    },
+    {
+      "id": "thm-012",
+      "name": "Spectral Theorem",
+      "description": "Symmetric matrices are diagonalizable",
+      "area": "Linear Algebra",
+      "importance": 4,
+      "ai_difficulty": 3,
+      "status": "solved",
+      "pos": [
+        -5.7061,
+        7.4793,
+        -3.0559
+      ],
+      "related": [
+        "thm-011",
+        "thm-036",
+        "opg-020"
+      ]
+    },
+    {
+      "id": "thm-013",
+      "name": "Banach Fixed Point Theorem",
+      "description": "Contraction mappings have unique fixed points",
+      "area": "Analysis",
+      "importance": 2,
+      "ai_difficulty": 2,
+      "status": "solved",
+      "pos": [
+        6.4465,
+        7.1879,
+        -1.4812
+      ],
+      "related": [
+        "thm-007",
+        "thm-008",
+        "thm-026",
+        "thm-029"
+      ]
+    },
+    {
+      "id": "thm-014",
+      "name": "G\u00f6del's Incompleteness Theorems",
+      "description": "Any consistent formal system contains unprovable truths",
+      "area": "Logic",
+      "importance": 4,
+      "ai_difficulty": 4,
+      "status": "solved",
+      "pos": [
+        -4.0549,
+        7.0388,
+        5.5509
+      ],
+      "related": [
+        "thm-031"
+      ]
+    },
+    {
+      "id": "thm-015",
+      "name": "Cantor's Theorem",
+      "description": "|A| < |P(A)| for any set A",
+      "area": "Set Theory",
+      "importance": 3,
+      "ai_difficulty": 3,
+      "status": "solved",
+      "pos": [
+        -0.6676,
+        6.9356,
+        -6.8947
+      ],
+      "related": []
+    },
+    {
+      "id": "thm-016",
+      "name": "Heine-Borel Theorem",
+      "description": "Closed bounded subsets of R\u207f are compact",
+      "area": "Topology",
+      "importance": 2,
+      "ai_difficulty": 2,
+      "status": "solved",
+      "pos": [
+        5.6595,
+        6.498,
+        5.044
+      ],
+      "related": [
+        "thm-006",
+        "thm-023",
+        "thm-024"
+      ]
+    },
+    {
+      "id": "thm-017",
+      "name": "Stokes Theorem",
+      "description": "\u222b_\u2202M \u03c9 = \u222b_M d\u03c9",
+      "area": "Differential Geometry",
+      "importance": 3,
+      "ai_difficulty": 1,
+      "status": "solved",
+      "pos": [
+        -7.3346,
+        6.8471,
+        0.5675
+      ],
+      "related": [
+        "thm-035",
+        "thm-044"
+      ]
+    },
+    {
+      "id": "thm-018",
+      "name": "Riemann Mapping Theorem",
+      "description": "Simply connected proper subsets of C are conformally equivalent to the unit disk",
+      "area": "Complex Analysis",
+      "importance": 2,
+      "ai_difficulty": 4,
+      "status": "solved",
+      "pos": [
+        5.6771,
+        6.1634,
+        -5.4498
+      ],
+      "related": [
+        "thm-010",
+        "opg-021"
+      ]
+    },
+    {
+      "id": "thm-019",
+      "name": "Hahn-Banach Theorem",
+      "description": "Bounded linear functionals on subspaces can be extended",
+      "area": "Functional Analysis",
+      "importance": 2,
+      "ai_difficulty": 3,
+      "status": "solved",
+      "pos": [
+        -0.5356,
+        6.1022,
+        7.603
+      ],
+      "related": [
+        "opg-015"
+      ]
+    },
+    {
+      "id": "thm-020",
+      "name": "Classification of Finite Simple Groups",
+      "description": "All finite simple groups belong to 18 infinite families + 26 sporadic groups",
+      "area": "Algebra",
+      "importance": 3,
+      "ai_difficulty": 3,
+      "status": "solved",
+      "pos": [
+        -5.2176,
+        6.2508,
+        -6.3063
+      ],
+      "related": [
+        "thm-003",
+        "thm-027",
+        "thm-028"
+      ]
+    },
+    {
+      "id": "thm-021",
+      "name": "Dirichlet's Theorem",
+      "description": "Infinitely many primes in arithmetic progressions a + nd with gcd(a,d)=1",
+      "area": "Number Theory",
+      "importance": 2,
+      "ai_difficulty": 4,
+      "status": "solved",
+      "pos": [
+        8.2736,
+        5.7306,
+        1.0441
+      ],
+      "related": [
+        "thm-002",
+        "thm-005",
+        "thm-022",
+        "thm-032"
+      ]
+    },
+    {
+      "id": "thm-022",
+      "name": "Quadratic Reciprocity",
+      "description": "Relationship between solvability of x\u00b2\u2261p (mod q) and x\u00b2\u2261q (mod p)",
+      "area": "Number Theory",
+      "importance": 4,
+      "ai_difficulty": 1,
+      "status": "solved",
+      "pos": [
+        -6.5509,
+        5.8528,
+        4.7823
+      ],
+      "related": [
+        "thm-005",
+        "thm-021",
+        "thm-032",
+        "thm-045"
+      ]
+    },
+    {
+      "id": "thm-023",
+      "name": "Tychonoff's Theorem",
+      "description": "Arbitrary product of compact spaces is compact",
+      "area": "Topology",
+      "importance": 3,
+      "ai_difficulty": 1,
+      "status": "solved",
+      "pos": [
+        1.9848,
+        5.1464,
+        -8.3623
+      ],
+      "related": [
+        "thm-006",
+        "thm-016",
+        "thm-024",
+        "thm-025"
+      ]
+    },
+    {
+      "id": "thm-024",
+      "name": "Brouwer Fixed Point Theorem",
+      "description": "Every continuous map from a closed ball to itself has a fixed point",
+      "area": "Topology",
+      "importance": 4,
+      "ai_difficulty": 3,
+      "status": "solved",
+      "pos": [
+        4.5426,
+        5.199,
+        7.4619
+      ],
+      "related": [
+        "thm-016",
+        "thm-023",
+        "thm-025",
+        "opg-032"
+      ]
+    },
+    {
+      "id": "thm-025",
+      "name": "Jordan Curve Theorem",
+      "description": "Every simple closed curve divides the plane into interior and exterior",
+      "area": "Topology",
+      "importance": 4,
+      "ai_difficulty": 3,
+      "status": "solved",
+      "pos": [
+        -8.1294,
+        4.6838,
+        -2.5905
+      ],
+      "related": [
+        "thm-023",
+        "thm-024",
+        "opg-032"
+      ]
+    },
+    {
+      "id": "thm-026",
+      "name": "Bolzano-Weierstrass Theorem",
+      "description": "Every bounded sequence in R\u207f has a convergent subsequence",
+      "area": "Analysis",
+      "importance": 4,
+      "ai_difficulty": 2,
+      "status": "solved",
+      "pos": [
+        7.9914,
+        4.9591,
+        -3.897
+      ],
+      "related": [
+        "thm-008",
+        "thm-013",
+        "thm-029",
+        "thm-033"
+      ]
+    },
+    {
+      "id": "thm-027",
+      "name": "Lagrange's Theorem",
+      "description": "Order of a subgroup divides the order of the group",
+      "area": "Algebra",
+      "importance": 4,
+      "ai_difficulty": 1,
+      "status": "solved",
+      "pos": [
+        -3.1623,
+        4.2935,
+        8.0282
+      ],
+      "related": [
+        "thm-003",
+        "thm-020",
+        "thm-028",
+        "thm-048"
+      ]
+    },
+    {
+      "id": "thm-028",
+      "name": "Abel-Ruffini Theorem",
+      "description": "No general algebraic solution for quintic equations",
+      "area": "Algebra",
+      "importance": 2,
+      "ai_difficulty": 2,
+      "status": "solved",
+      "pos": [
+        -2.9916,
+        4.4486,
+        -8.6348
+      ],
+      "related": [
+        "thm-020",
+        "thm-027",
+        "thm-048",
+        "opg-023"
+      ]
+    },
+    {
+      "id": "thm-029",
+      "name": "Green's Theorem",
+      "description": "Line integral around a closed curve equals double integral over region",
+      "area": "Analysis",
+      "importance": 3,
+      "ai_difficulty": 1,
+      "status": "solved",
+      "pos": [
+        7.829,
+        4.3756,
+        4.0823
+      ],
+      "related": [
+        "thm-013",
+        "thm-026",
+        "thm-033",
+        "thm-038"
+      ]
+    },
+    {
+      "id": "thm-030",
+      "name": "Euler's Polyhedron Formula",
+      "description": "V - E + F = 2 for convex polyhedra",
+      "area": "Geometry",
+      "importance": 2,
+      "ai_difficulty": 1,
+      "status": "solved",
+      "pos": [
+        -8.8311,
+        4.011,
+        2.2943
+      ],
+      "related": [
+        "thm-000",
+        "opg-017",
+        "opg-018"
+      ]
+    },
+    {
+      "id": "thm-031",
+      "name": "L\u00f6wenheim-Skolem Theorem",
+      "description": "If a first-order theory has an infinite model, it has models of all infinite cardinalities",
+      "area": "Logic",
+      "importance": 3,
+      "ai_difficulty": 3,
+      "status": "solved",
+      "pos": [
+        5.0667,
+        3.751,
+        -7.5409
+      ],
+      "related": [
+        "thm-014"
+      ]
+    },
+    {
+      "id": "thm-032",
+      "name": "Chinese Remainder Theorem",
+      "description": "System of congruences with coprime moduli has a unique solution",
+      "area": "Number Theory",
+      "importance": 3,
+      "ai_difficulty": 3,
+      "status": "solved",
+      "pos": [
+        1.4069,
+        3.6651,
+        9.0623
+      ],
+      "related": [
+        "thm-021",
+        "thm-022",
+        "thm-045",
+        "opg-000"
+      ]
+    },
+    {
+      "id": "thm-033",
+      "name": "Peano Existence Theorem",
+      "description": "Continuous ODEs have solutions (not necessarily unique)",
+      "area": "Analysis",
+      "importance": 2,
+      "ai_difficulty": 3,
+      "status": "solved",
+      "pos": [
+        -7.5166,
+        3.4363,
+        -5.8929
+      ],
+      "related": [
+        "thm-026",
+        "thm-029",
+        "thm-038"
+      ]
+    },
+    {
+      "id": "thm-034",
+      "name": "Kuratowski's Theorem",
+      "description": "A graph is planar iff it contains no K\u2085 or K\u2083,\u2083 minor",
+      "area": "Graph Theory",
+      "importance": 3,
+      "ai_difficulty": 2,
+      "status": "solved",
+      "pos": [
+        9.3544,
+        3.2824,
+        -1.0406
+      ],
+      "related": [
+        "thm-004",
+        "opg-009",
+        "opg-019"
+      ]
+    },
+    {
+      "id": "thm-035",
+      "name": "Gauss-Bonnet Theorem",
+      "description": "Total curvature of a surface = 2\u03c0\u00b7\u03c7(M)",
+      "area": "Differential Geometry",
+      "importance": 4,
+      "ai_difficulty": 3,
+      "status": "solved",
+      "pos": [
+        -6.5179,
+        3.2284,
+        7.3163
+      ],
+      "related": [
+        "thm-017",
+        "thm-044",
+        "opg-028"
+      ]
+    },
+    {
+      "id": "thm-036",
+      "name": "Cayley-Hamilton Theorem",
+      "description": "Every square matrix satisfies its own characteristic polynomial",
+      "area": "Linear Algebra",
+      "importance": 4,
+      "ai_difficulty": 1,
+      "status": "solved",
+      "pos": [
+        -0.2091,
+        2.5552,
+        -9.7617
+      ],
+      "related": [
+        "thm-011",
+        "thm-012",
+        "opg-020"
+      ]
+    },
+    {
+      "id": "thm-037",
+      "name": "Yoneda Lemma",
+      "description": "Natural transformations from Hom(A,-) to F are in bijection with F(A)",
+      "area": "Category Theory",
+      "importance": 4,
+      "ai_difficulty": 2,
+      "status": "solved",
+      "pos": [
+        6.7611,
+        2.7538,
+        7.3941
+      ],
+      "related": []
+    },
+    {
+      "id": "thm-038",
+      "name": "Stone-Weierstrass Theorem",
+      "description": "Any continuous function on a compact set can be uniformly approximated by polynomials",
+      "area": "Analysis",
+      "importance": 4,
+      "ai_difficulty": 2,
+      "status": "solved",
+      "pos": [
+        -9.7632,
+        2.1179,
+        -0.6973
+      ],
+      "related": [
+        "thm-029",
+        "thm-033"
+      ]
+    },
+    {
+      "id": "thm-039",
+      "name": "Shannon's Source Coding Theorem",
+      "description": "Lossless compression limit is the entropy of the source",
+      "area": "Information Theory",
+      "importance": 2,
+      "ai_difficulty": 4,
+      "status": "solved",
+      "pos": [
+        7.9064,
+        2.1882,
+        -5.6157
+      ],
+      "related": []
+    },
+    {
+      "id": "thm-040",
+      "name": "Cook-Levin Theorem",
+      "description": "SAT is NP-complete",
+      "area": "Complexity Theory",
+      "importance": 3,
+      "ai_difficulty": 3,
+      "status": "solved",
+      "pos": [
+        -1.6642,
+        1.6239,
+        9.8459
+      ],
+      "related": [
+        "thm-041",
+        "opg-001"
+      ]
+    },
+    {
+      "id": "thm-041",
+      "name": "PCP Theorem",
+      "description": "NP = PCP(O(log n), O(1))",
+      "area": "Complexity Theory",
+      "importance": 4,
+      "ai_difficulty": 2,
+      "status": "solved",
+      "pos": [
+        -5.3673,
+        1.8152,
+        -8.0746
+      ],
+      "related": [
+        "thm-040",
+        "opg-001"
+      ]
+    },
+    {
+      "id": "thm-042",
+      "name": "Rice's Theorem",
+      "description": "All non-trivial semantic properties of programs are undecidable",
+      "area": "Computability",
+      "importance": 4,
+      "ai_difficulty": 3,
+      "status": "solved",
+      "pos": [
+        9.3136,
+        1.2844,
+        2.3768
+      ],
+      "related": []
+    },
+    {
+      "id": "thm-043",
+      "name": "Arrow's Impossibility Theorem",
+      "description": "No ranked voting system satisfies all fairness criteria",
+      "area": "Game Theory",
+      "importance": 2,
+      "ai_difficulty": 2,
+      "status": "solved",
+      "pos": [
+        -8.7879,
+        1.1765,
+        4.5891
+      ],
+      "related": [
+        "thm-049"
+      ]
+    },
+    {
+      "id": "thm-044",
+      "name": "Nash Embedding Theorem",
+      "description": "Every Riemannian manifold can be isometrically embedded in Euclidean space",
+      "area": "Differential Geometry",
+      "importance": 2,
+      "ai_difficulty": 3,
+      "status": "solved",
+      "pos": [
+        3.5852,
+        0.9333,
+        -9.2378
+      ],
+      "related": [
+        "thm-017",
+        "thm-035",
+        "opg-028"
+      ]
+    },
+    {
+      "id": "thm-045",
+      "name": "Artin's Reciprocity Law",
+      "description": "Generalization of quadratic reciprocity to abelian extensions",
+      "area": "Number Theory",
+      "importance": 3,
+      "ai_difficulty": 3,
+      "status": "solved",
+      "pos": [
+        3.6132,
+        0.9022,
+        9.4668
+      ],
+      "related": [
+        "thm-022",
+        "thm-032",
+        "opg-000",
+        "opg-002"
+      ]
+    },
+    {
+      "id": "thm-046",
+      "name": "Poincar\u00e9-Bendixson Theorem",
+      "description": "Planar dynamical systems have limit sets that are equilibria, periodic orbits, or homoclinic",
+      "area": "Dynamical Systems",
+      "importance": 2,
+      "ai_difficulty": 2,
+      "status": "solved",
+      "pos": [
+        -8.8063,
+        0.4624,
+        -4.3177
+      ],
+      "related": []
+    },
+    {
+      "id": "thm-047",
+      "name": "De Bruijn-Erd\u0151s Theorem",
+      "description": "n points in a plane with no 3 collinear determine at least n lines",
+      "area": "Combinatorics",
+      "importance": 4,
+      "ai_difficulty": 3,
+      "status": "solved",
+      "pos": [
+        9.4099,
+        0.2072,
+        -2.7798
+      ],
+      "related": [
+        "opg-012",
+        "opg-013"
+      ]
+    },
+    {
+      "id": "thm-048",
+      "name": "Sylow Theorems",
+      "description": "Existence and conjugacy of maximal p-subgroups of finite groups",
+      "area": "Algebra",
+      "importance": 2,
+      "ai_difficulty": 4,
+      "status": "solved",
+      "pos": [
+        -4.9716,
+        0.1602,
+        8.7683
+      ],
+      "related": [
+        "thm-027",
+        "thm-028",
+        "opg-023"
+      ]
+    },
+    {
+      "id": "thm-049",
+      "name": "von Neumann's Min-Max Theorem",
+      "description": "Zero-sum games have optimal mixed strategies",
+      "area": "Game Theory",
+      "importance": 3,
+      "ai_difficulty": 4,
+      "status": "solved",
+      "pos": [
+        -2.0684,
+        0.0576,
+        -10.0708
+      ],
+      "related": [
+        "thm-043"
+      ]
+    },
+    {
+      "id": "opg-000",
+      "name": "Riemann Hypothesis",
+      "description": "All non-trivial zeros of \u03b6(s) lie on Re(s) = 1/2",
+      "area": "Number Theory",
+      "importance": 2,
+      "ai_difficulty": 4,
+      "status": "unsolved",
+      "pos": [
+        7.8972,
+        0.1289,
+        6.0332
+      ],
+      "related": [
+        "thm-032",
+        "thm-045",
+        "opg-002",
+        "opg-003"
+      ]
+    },
+    {
+      "id": "opg-001",
+      "name": "P vs NP",
+      "description": "Is every problem whose solution can be verified quickly also solvable quickly?",
+      "area": "Complexity Theory",
+      "importance": 2,
+      "ai_difficulty": 3,
+      "status": "unsolved",
+      "pos": [
+        -9.8913,
+        -0.1023,
+        1.2857
+      ],
+      "related": [
+        "thm-040",
+        "thm-041"
+      ]
+    },
+    {
+      "id": "opg-002",
+      "name": "Goldbach's Conjecture",
+      "description": "Every even integer > 2 is the sum of two primes",
+      "area": "Number Theory",
+      "importance": 4,
+      "ai_difficulty": 5,
+      "status": "unsolved",
+      "pos": [
+        6.2623,
+        -0.7286,
+        -7.7203
+      ],
+      "related": [
+        "thm-045",
+        "opg-000",
+        "opg-003",
+        "opg-004"
+      ]
+    },
+    {
+      "id": "opg-003",
+      "name": "Collatz Conjecture",
+      "description": "3n+1 sequence always reaches 1 for all positive integers",
+      "area": "Number Theory",
+      "importance": 4,
+      "ai_difficulty": 4,
+      "status": "unsolved",
+      "pos": [
+        0.6029,
+        -0.5294,
+        10.1848
+      ],
+      "related": [
+        "opg-000",
+        "opg-002",
+        "opg-004",
+        "opg-005"
+      ]
+    },
+    {
+      "id": "opg-004",
+      "name": "Twin Prime Conjecture",
+      "description": "There are infinitely many prime pairs (p, p+2)",
+      "area": "Number Theory",
+      "importance": 4,
+      "ai_difficulty": 5,
+      "status": "unsolved",
+      "pos": [
+        -6.7507,
+        -1.083,
+        -7.2434
+      ],
+      "related": [
+        "opg-002",
+        "opg-003",
+        "opg-005",
+        "opg-010"
+      ]
+    },
+    {
+      "id": "opg-005",
+      "name": "Birch and Swinnerton-Dyer Conjecture",
+      "description": "Rank of elliptic curve relates to order of zero of its L-function at s=1",
+      "area": "Number Theory",
+      "importance": 3,
+      "ai_difficulty": 5,
+      "status": "unsolved",
+      "pos": [
+        9.6868,
+        -0.943,
+        0.738
+      ],
+      "related": [
+        "opg-003",
+        "opg-004",
+        "opg-010",
+        "opg-011"
+      ]
+    },
+    {
+      "id": "opg-006",
+      "name": "Hodge Conjecture",
+      "description": "Certain de Rham cohomology classes are algebraic",
+      "area": "Algebraic Geometry",
+      "importance": 3,
+      "ai_difficulty": 4,
+      "status": "unsolved",
+      "pos": [
+        -7.6984,
+        -1.2407,
+        6.1071
+      ],
+      "related": []
+    },
+    {
+      "id": "opg-007",
+      "name": "Yang-Mills Mass Gap",
+      "description": "Existence of quantum Yang-Mills theory with a mass gap",
+      "area": "Mathematical Physics",
+      "importance": 2,
+      "ai_difficulty": 3,
+      "status": "unsolved",
+      "pos": [
+        1.6238,
+        -1.2964,
+        -9.504
+      ],
+      "related": []
+    },
+    {
+      "id": "opg-008",
+      "name": "Navier-Stokes Existence",
+      "description": "Existence and smoothness of solutions to Navier-Stokes equations in 3D",
+      "area": "PDE",
+      "importance": 4,
+      "ai_difficulty": 4,
+      "status": "unsolved",
+      "pos": [
+        5.7734,
+        -1.4883,
+        7.8289
+      ],
+      "related": []
+    },
+    {
+      "id": "opg-009",
+      "name": "Hadwiger-Nelson Problem",
+      "description": "Chromatic number of the Euclidean plane",
+      "area": "Graph Theory",
+      "importance": 2,
+      "ai_difficulty": 3,
+      "status": "unsolved",
+      "pos": [
+        -9.4222,
+        -2.0199,
+        -1.9422
+      ],
+      "related": [
+        "thm-004",
+        "thm-034",
+        "opg-019",
+        "opg-022"
+      ]
+    },
+    {
+      "id": "opg-010",
+      "name": "Erd\u0151s\u2013Straus Conjecture",
+      "description": "4/n = 1/x + 1/y + 1/z for all n > 1",
+      "area": "Number Theory",
+      "importance": 2,
+      "ai_difficulty": 3,
+      "status": "unsolved",
+      "pos": [
+        8.684,
+        -1.9028,
+        -4.6308
+      ],
+      "related": [
+        "opg-004",
+        "opg-005",
+        "opg-011",
+        "opg-016"
+      ]
+    },
+    {
+      "id": "opg-011",
+      "name": "Lonely Runner Conjecture",
+      "description": "k runners on a circular track, each is lonely at some time",
+      "area": "Number Theory",
+      "importance": 4,
+      "ai_difficulty": 3,
+      "status": "unsolved",
+      "pos": [
+        -3.1413,
+        -2.1508,
+        9.0166
+      ],
+      "related": [
+        "opg-005",
+        "opg-010",
+        "opg-016",
+        "opg-024"
+      ]
+    },
+    {
+      "id": "opg-012",
+      "name": "Frankl's Union-Closed Conjecture",
+      "description": "In any union-closed family, some element appears in at least half the sets",
+      "area": "Combinatorics",
+      "importance": 4,
+      "ai_difficulty": 4,
+      "status": "unsolved",
+      "pos": [
+        -3.7921,
+        -2.3101,
+        -8.9699
+      ],
+      "related": [
+        "thm-047",
+        "opg-013"
+      ]
+    },
+    {
+      "id": "opg-013",
+      "name": "Hadamard Matrix Conjecture",
+      "description": "Hadamard matrices exist for all orders divisible by 4",
+      "area": "Combinatorics",
+      "importance": 4,
+      "ai_difficulty": 3,
+      "status": "unsolved",
+      "pos": [
+        9.0468,
+        -2.7511,
+        3.6406
+      ],
+      "related": [
+        "thm-047",
+        "opg-012"
+      ]
+    },
+    {
+      "id": "opg-014",
+      "name": "Jacobian Conjecture",
+      "description": "Polynomial map with constant nonzero Jacobian is invertible",
+      "area": "Algebraic Geometry",
+      "importance": 3,
+      "ai_difficulty": 4,
+      "status": "unsolved",
+      "pos": [
+        -8.8355,
+        -3.0927,
+        2.9063
+      ],
+      "related": []
+    },
+    {
+      "id": "opg-015",
+      "name": "Invariant Subspace Problem",
+      "description": "Does every bounded linear operator on a separable Hilbert space have a nontrivial invariant subspace?",
+      "area": "Functional Analysis",
+      "importance": 4,
+      "ai_difficulty": 4,
+      "status": "unsolved",
+      "pos": [
+        4.2752,
+        -3.2344,
+        -8.1665
+      ],
+      "related": [
+        "thm-019"
+      ]
+    },
+    {
+      "id": "opg-016",
+      "name": "Schanuel's Conjecture",
+      "description": "Transcendence degree of numbers and their exponentials",
+      "area": "Number Theory",
+      "importance": 4,
+      "ai_difficulty": 4,
+      "status": "unsolved",
+      "pos": [
+        2.6388,
+        -3.4659,
+        9.2132
+      ],
+      "related": [
+        "opg-010",
+        "opg-011",
+        "opg-024",
+        "opg-025"
+      ]
+    },
+    {
+      "id": "opg-017",
+      "name": "Keller's Conjecture",
+      "description": "In dimension \u2264 7, any tiling by unit hypercubes contains two sharing a full face",
+      "area": "Geometry",
+      "importance": 4,
+      "ai_difficulty": 3,
+      "status": "unsolved",
+      "pos": [
+        -7.9035,
+        -3.2467,
+        -5.0757
+      ],
+      "related": [
+        "thm-000",
+        "thm-030",
+        "opg-018"
+      ]
+    },
+    {
+      "id": "opg-018",
+      "name": "Toeplitz Conjecture",
+      "description": "Every simple closed curve in the plane contains the vertices of a square",
+      "area": "Geometry",
+      "importance": 4,
+      "ai_difficulty": 5,
+      "status": "unsolved",
+      "pos": [
+        9.4124,
+        -3.9682,
+        -1.2442
+      ],
+      "related": [
+        "thm-030",
+        "opg-017"
+      ]
+    },
+    {
+      "id": "opg-019",
+      "name": "Erd\u0151s\u2013Hajnal Conjecture",
+      "description": "Graphs avoiding an induced subgraph have large cliques or independent sets",
+      "area": "Graph Theory",
+      "importance": 2,
+      "ai_difficulty": 5,
+      "status": "unsolved",
+      "pos": [
+        -5.8561,
+        -3.6619,
+        7.0986
+      ],
+      "related": [
+        "thm-034",
+        "opg-009",
+        "opg-022",
+        "opg-026"
+      ]
+    },
+    {
+      "id": "opg-020",
+      "name": "Rota's Basis Conjecture",
+      "description": "n bases of an n-dim vector space can be arranged into an n\u00d7n grid with each row and column a basis",
+      "area": "Linear Algebra",
+      "importance": 4,
+      "ai_difficulty": 4,
+      "status": "unsolved",
+      "pos": [
+        -0.9422,
+        -4.1807,
+        -8.9375
+      ],
+      "related": [
+        "thm-012",
+        "thm-036"
+      ]
+    },
+    {
+      "id": "opg-021",
+      "name": "Sendov's Conjecture",
+      "description": "If all roots of a polynomial lie in the unit disk, each root has a critical point within distance 1",
+      "area": "Complex Analysis",
+      "importance": 4,
+      "ai_difficulty": 4,
+      "status": "unsolved",
+      "pos": [
+        6.4704,
+        -4.2797,
+        6.1558
+      ],
+      "related": [
+        "thm-010",
+        "thm-018"
+      ]
+    },
+    {
+      "id": "opg-022",
+      "name": "Graceful Tree Conjecture",
+      "description": "Every tree has a graceful labeling of its vertices",
+      "area": "Graph Theory",
+      "importance": 2,
+      "ai_difficulty": 4,
+      "status": "unsolved",
+      "pos": [
+        -8.9757,
+        -4.4995,
+        -0.2341
+      ],
+      "related": [
+        "opg-009",
+        "opg-019",
+        "opg-026",
+        "opg-034"
+      ]
+    },
+    {
+      "id": "opg-023",
+      "name": "Casas-Alvero Conjecture",
+      "description": "If a polynomial shares a root with each of its derivatives, it is a power of a linear polynomial",
+      "area": "Algebra",
+      "importance": 3,
+      "ai_difficulty": 3,
+      "status": "unsolved",
+      "pos": [
+        6.6727,
+        -5.0465,
+        -5.6262
+      ],
+      "related": [
+        "thm-028",
+        "thm-048"
+      ]
+    },
+    {
+      "id": "opg-024",
+      "name": "Erd\u0151s\u2013Moser Problem",
+      "description": "1\u1d4f + 2\u1d4f + ... + m\u1d4f = (m+1)\u1d4f has only the trivial solution (k=1, m=2)",
+      "area": "Number Theory",
+      "importance": 3,
+      "ai_difficulty": 3,
+      "status": "unsolved",
+      "pos": [
+        -0.821,
+        -4.8178,
+        8.7933
+      ],
+      "related": [
+        "opg-011",
+        "opg-016",
+        "opg-025",
+        "opg-027"
+      ]
+    },
+    {
+      "id": "opg-025",
+      "name": "Bunyakovsky Conjecture",
+      "description": "Irreducible integer polynomial with gcd 1 of its values produces infinitely many primes",
+      "area": "Number Theory",
+      "importance": 4,
+      "ai_difficulty": 5,
+      "status": "unsolved",
+      "pos": [
+        -5.0459,
+        -5.233,
+        -7.1105
+      ],
+      "related": [
+        "opg-016",
+        "opg-024",
+        "opg-027",
+        "opg-030"
+      ]
+    },
+    {
+      "id": "opg-026",
+      "name": "Reconstruction Conjecture",
+      "description": "Every graph on \u22653 vertices is uniquely determined by its vertex-deleted subgraphs",
+      "area": "Graph Theory",
+      "importance": 3,
+      "ai_difficulty": 5,
+      "status": "unsolved",
+      "pos": [
+        8.401,
+        -5.4554,
+        1.4406
+      ],
+      "related": [
+        "opg-019",
+        "opg-022",
+        "opg-034",
+        "opg-043"
+      ]
+    },
+    {
+      "id": "opg-027",
+      "name": "Mazur's Conjecture",
+      "description": "Every rational point on a modular curve of genus > 1 is a cusp or CM point",
+      "area": "Number Theory",
+      "importance": 2,
+      "ai_difficulty": 5,
+      "status": "unsolved",
+      "pos": [
+        -6.85,
+        -5.4237,
+        4.2743
+      ],
+      "related": [
+        "opg-024",
+        "opg-025",
+        "opg-030",
+        "opg-035"
+      ]
+    },
+    {
+      "id": "opg-028",
+      "name": "Carath\u00e9odory Conjecture",
+      "description": "Every smooth closed convex surface in R\u00b3 has at least two umbilic points",
+      "area": "Differential Geometry",
+      "importance": 2,
+      "ai_difficulty": 5,
+      "status": "unsolved",
+      "pos": [
+        2.0851,
+        -5.8125,
+        -7.9334
+      ],
+      "related": [
+        "thm-035",
+        "thm-044"
+      ]
+    },
+    {
+      "id": "opg-029",
+      "name": "Erd\u0151s\u2013Ginzburg\u2013Ziv Theorem (Generalization)",
+      "description": "In any 2n-1 integers, n have sum divisible by n \u2014 generalization to higher dimensions unknown",
+      "area": "Combinatorics",
+      "importance": 3,
+      "ai_difficulty": 5,
+      "status": "unsolved",
+      "pos": [
+        3.5088,
+        -6.1832,
+        7.1144
+      ],
+      "related": []
+    },
+    {
+      "id": "opg-030",
+      "name": "Littlewood Conjecture",
+      "description": "liminf n\u00b7\u2016n\u03b1\u2016\u00b7\u2016n\u03b2\u2016 = 0 for all real \u03b1, \u03b2",
+      "area": "Number Theory",
+      "importance": 4,
+      "ai_difficulty": 5,
+      "status": "unsolved",
+      "pos": [
+        -7.1073,
+        -6.0552,
+        -2.5322
+      ],
+      "related": [
+        "opg-025",
+        "opg-027",
+        "opg-035",
+        "opg-036"
+      ]
+    },
+    {
+      "id": "opg-031",
+      "name": "Andrews-Curtis Conjecture",
+      "description": "Every balanced presentation of the trivial group can be transformed to the trivial presentation",
+      "area": "Group Theory",
+      "importance": 2,
+      "ai_difficulty": 3,
+      "status": "unsolved",
+      "pos": [
+        7.228,
+        -6.4831,
+        -2.8448
+      ],
+      "related": []
+    },
+    {
+      "id": "opg-032",
+      "name": "Whitehead Conjecture",
+      "description": "Every subcomplex of an aspherical 2-complex is aspherical",
+      "area": "Topology",
+      "importance": 3,
+      "ai_difficulty": 3,
+      "status": "unsolved",
+      "pos": [
+        -3.5632,
+        -6.6935,
+        6.7581
+      ],
+      "related": [
+        "thm-024",
+        "thm-025"
+      ]
+    },
+    {
+      "id": "opg-033",
+      "name": "Kakeya Conjecture",
+      "description": "Besicovitch sets in R\u207f have Hausdorff dimension n",
+      "area": "Harmonic Analysis",
+      "importance": 4,
+      "ai_difficulty": 5,
+      "status": "unsolved",
+      "pos": [
+        -2.0867,
+        -6.6749,
+        -7.0667
+      ],
+      "related": []
+    },
+    {
+      "id": "opg-034",
+      "name": "Erd\u0151s\u2013Faber\u2013Lov\u00e1sz Conjecture",
+      "description": "Union of k pairwise intersecting k-sets is k-colorable",
+      "area": "Graph Theory",
+      "importance": 2,
+      "ai_difficulty": 5,
+      "status": "unsolved",
+      "pos": [
+        6.1344,
+        -7.1415,
+        3.6399
+      ],
+      "related": [
+        "opg-022",
+        "opg-026",
+        "opg-043"
+      ]
+    },
+    {
+      "id": "opg-035",
+      "name": "Oppenheim Conjecture (Growth Rates)",
+      "description": "Quantitative version of Oppenheim conjecture for quadratic forms",
+      "area": "Number Theory",
+      "importance": 3,
+      "ai_difficulty": 4,
+      "status": "unsolved",
+      "pos": [
+        -6.58,
+        -6.9941,
+        1.2317
+      ],
+      "related": [
+        "opg-027",
+        "opg-030",
+        "opg-036",
+        "opg-040"
+      ]
+    },
+    {
+      "id": "opg-036",
+      "name": "Perfect Cuboid Problem",
+      "description": "Does a perfect Euler brick with integer space diagonal exist?",
+      "area": "Number Theory",
+      "importance": 2,
+      "ai_difficulty": 3,
+      "status": "unsolved",
+      "pos": [
+        3.6895,
+        -7.3645,
+        -5.408
+      ],
+      "related": [
+        "opg-030",
+        "opg-035",
+        "opg-040",
+        "opg-044"
+      ]
+    },
+    {
+      "id": "opg-037",
+      "name": "Union-Closed Singleton Conjecture",
+      "description": "In a union-closed family, there is an element belonging to at least half the sets",
+      "area": "Combinatorics",
+      "importance": 3,
+      "ai_difficulty": 4,
+      "status": "unsolved",
+      "pos": [
+        0.6768,
+        -7.3847,
+        6.6319
+      ],
+      "related": []
+    },
+    {
+      "id": "opg-038",
+      "name": "Gurevich Conjecture",
+      "description": "Every finite generated group is sofic",
+      "area": "Group Theory",
+      "importance": 2,
+      "ai_difficulty": 3,
+      "status": "unsolved",
+      "pos": [
+        -4.6627,
+        -7.943,
+        -4.2778
+      ],
+      "related": []
+    },
+    {
+      "id": "opg-039",
+      "name": "Baum-Connes Conjecture",
+      "description": "Assembly map from K-homology to K-theory of group C*-algebra is an isomorphism",
+      "area": "Operator Algebras",
+      "importance": 2,
+      "ai_difficulty": 5,
+      "status": "unsolved",
+      "pos": [
+        5.7385,
+        -8.1329,
+        -0.2052
+      ],
+      "related": []
+    },
+    {
+      "id": "opg-040",
+      "name": "Deligne's Conjecture on Special Values",
+      "description": "Motivic L-functions satisfy certain algebraicity properties at integer points",
+      "area": "Number Theory",
+      "importance": 2,
+      "ai_difficulty": 3,
+      "status": "unsolved",
+      "pos": [
+        -3.905,
+        -8.4381,
+        3.9644
+      ],
+      "related": [
+        "opg-035",
+        "opg-036",
+        "opg-044",
+        "opg-046"
+      ]
+    },
+    {
+      "id": "opg-041",
+      "name": "Erd\u0151s\u2013Szekeres (Happy Ending) Generalization",
+      "description": "Minimum points to guarantee a convex n-gon in higher dimensions",
+      "area": "Combinatorics",
+      "importance": 4,
+      "ai_difficulty": 4,
+      "status": "unsolved",
+      "pos": [
+        0.3828,
+        -8.5672,
+        -5.3245
+      ],
+      "related": []
+    },
+    {
+      "id": "opg-042",
+      "name": "1/3\u20132/3 Conjecture",
+      "description": "Every finite poset not a total order has a pair (x,y) such that x < y with probability between 1/3 and 2/3 in linear extensions",
+      "area": "Combinatorics",
+      "importance": 2,
+      "ai_difficulty": 5,
+      "status": "unsolved",
+      "pos": [
+        3.2428,
+        -8.7395,
+        4.0617
+      ],
+      "related": []
+    },
+    {
+      "id": "opg-043",
+      "name": "Conway's 99-Graph Problem",
+      "description": "Does a strongly regular graph with parameters (99,14,1,2) exist?",
+      "area": "Graph Theory",
+      "importance": 2,
+      "ai_difficulty": 3,
+      "status": "unsolved",
+      "pos": [
+        -5.0197,
+        -8.6373,
+        -0.5204
+      ],
+      "related": [
+        "opg-026",
+        "opg-034"
+      ]
+    },
+    {
+      "id": "opg-044",
+      "name": "Ap\u00e9ry's Constant Generalization",
+      "description": "Is \u03b6(3) / \u03c0\u00b3 transcendental?",
+      "area": "Number Theory",
+      "importance": 4,
+      "ai_difficulty": 4,
+      "status": "unsolved",
+      "pos": [
+        3.3833,
+        -9.0348,
+        -2.6607
+      ],
+      "related": [
+        "opg-036",
+        "opg-040",
+        "opg-046",
+        "opg-047"
+      ]
+    },
+    {
+      "id": "opg-045",
+      "name": "Polynomial Hirsch Conjecture",
+      "description": "The diameter of polyhedra with n facets in d dimensions is bounded by poly(n,d)",
+      "area": "Combinatorics",
+      "importance": 4,
+      "ai_difficulty": 3,
+      "status": "unsolved",
+      "pos": [
+        -0.627,
+        -9.1811,
+        3.5636
+      ],
+      "related": []
+    },
+    {
+      "id": "opg-046",
+      "name": "Erd\u0151s\u2013Moser Conjecture",
+      "description": "Equation 1\u1d4f + 2\u1d4f + ... + (m-1)\u1d4f = m\u1d4f only has trivial solutions",
+      "area": "Number Theory",
+      "importance": 3,
+      "ai_difficulty": 5,
+      "status": "unsolved",
+      "pos": [
+        -1.8259,
+        -9.1849,
+        -3.0172
+      ],
+      "related": [
+        "opg-040",
+        "opg-044",
+        "opg-047",
+        "opg-048"
+      ]
+    },
+    {
+      "id": "opg-047",
+      "name": "Gilbreath's Conjecture",
+      "description": "Iterated absolute differences of primes starting with 2 gives sequences all starting with 1",
+      "area": "Number Theory",
+      "importance": 4,
+      "ai_difficulty": 4,
+      "status": "unsolved",
+      "pos": [
+        2.8531,
+        -9.4954,
+        1.1741
+      ],
+      "related": [
+        "opg-044",
+        "opg-046",
+        "opg-048",
+        "opg-049"
+      ]
+    },
+    {
+      "id": "opg-048",
+      "name": "Grimm's Conjecture",
+      "description": "For each n, there are n consecutive composite numbers each divisible by a distinct prime",
+      "area": "Number Theory",
+      "importance": 2,
+      "ai_difficulty": 5,
+      "status": "unsolved",
+      "pos": [
+        -1.7663,
+        -9.528,
+        1.0559
+      ],
+      "related": [
+        "opg-046",
+        "opg-047",
+        "opg-049"
+      ]
+    },
+    {
+      "id": "opg-049",
+      "name": "Lehmer's Totient Problem",
+      "description": "If \u03c6(n) divides n-1, must n be prime?",
+      "area": "Number Theory",
+      "importance": 4,
+      "ai_difficulty": 5,
+      "status": "unsolved",
+      "pos": [
+        0.0676,
+        -9.8684,
+        0.0029
+      ],
+      "related": [
+        "opg-047",
+        "opg-048"
+      ]
+    }
+  ],
+  "edges": [
+    [
+      "thm-000",
+      "thm-030"
+    ],
+    [
+      "thm-000",
+      "opg-017"
+    ],
+    [
+      "thm-030",
+      "opg-017"
+    ],
+    [
+      "thm-030",
+      "opg-018"
+    ],
+    [
+      "opg-017",
+      "opg-018"
+    ],
+    [
+      "thm-001",
+      "thm-002"
+    ],
+    [
+      "thm-001",
+      "thm-005"
+    ],
+    [
+      "thm-002",
+      "thm-005"
+    ],
+    [
+      "thm-002",
+      "thm-021"
+    ],
+    [
+      "thm-005",
+      "thm-021"
+    ],
+    [
+      "thm-005",
+      "thm-022"
+    ],
+    [
+      "thm-021",
+      "thm-022"
+    ],
+    [
+      "thm-021",
+      "thm-032"
+    ],
+    [
+      "thm-022",
+      "thm-032"
+    ],
+    [
+      "thm-022",
+      "thm-045"
+    ],
+    [
+      "thm-032",
+      "thm-045"
+    ],
+    [
+      "thm-032",
+      "opg-000"
+    ],
+    [
+      "thm-045",
+      "opg-000"
+    ],
+    [
+      "thm-045",
+      "opg-002"
+    ],
+    [
+      "opg-000",
+      "opg-002"
+    ],
+    [
+      "opg-000",
+      "opg-003"
+    ],
+    [
+      "opg-002",
+      "opg-003"
+    ],
+    [
+      "opg-002",
+      "opg-004"
+    ],
+    [
+      "opg-003",
+      "opg-004"
+    ],
+    [
+      "opg-003",
+      "opg-005"
+    ],
+    [
+      "opg-004",
+      "opg-005"
+    ],
+    [
+      "opg-004",
+      "opg-010"
+    ],
+    [
+      "opg-005",
+      "opg-010"
+    ],
+    [
+      "opg-005",
+      "opg-011"
+    ],
+    [
+      "opg-010",
+      "opg-011"
+    ],
+    [
+      "opg-010",
+      "opg-016"
+    ],
+    [
+      "opg-011",
+      "opg-016"
+    ],
+    [
+      "opg-011",
+      "opg-024"
+    ],
+    [
+      "opg-016",
+      "opg-024"
+    ],
+    [
+      "opg-016",
+      "opg-025"
+    ],
+    [
+      "opg-024",
+      "opg-025"
+    ],
+    [
+      "opg-024",
+      "opg-027"
+    ],
+    [
+      "opg-025",
+      "opg-027"
+    ],
+    [
+      "opg-025",
+      "opg-030"
+    ],
+    [
+      "opg-027",
+      "opg-030"
+    ],
+    [
+      "opg-027",
+      "opg-035"
+    ],
+    [
+      "opg-030",
+      "opg-035"
+    ],
+    [
+      "opg-030",
+      "opg-036"
+    ],
+    [
+      "opg-035",
+      "opg-036"
+    ],
+    [
+      "opg-035",
+      "opg-040"
+    ],
+    [
+      "opg-036",
+      "opg-040"
+    ],
+    [
+      "opg-036",
+      "opg-044"
+    ],
+    [
+      "opg-040",
+      "opg-044"
+    ],
+    [
+      "opg-040",
+      "opg-046"
+    ],
+    [
+      "opg-044",
+      "opg-046"
+    ],
+    [
+      "opg-044",
+      "opg-047"
+    ],
+    [
+      "opg-046",
+      "opg-047"
+    ],
+    [
+      "opg-046",
+      "opg-048"
+    ],
+    [
+      "opg-047",
+      "opg-048"
+    ],
+    [
+      "opg-047",
+      "opg-049"
+    ],
+    [
+      "opg-048",
+      "opg-049"
+    ],
+    [
+      "thm-003",
+      "thm-020"
+    ],
+    [
+      "thm-003",
+      "thm-027"
+    ],
+    [
+      "thm-020",
+      "thm-027"
+    ],
+    [
+      "thm-020",
+      "thm-028"
+    ],
+    [
+      "thm-027",
+      "thm-028"
+    ],
+    [
+      "thm-027",
+      "thm-048"
+    ],
+    [
+      "thm-028",
+      "thm-048"
+    ],
+    [
+      "thm-028",
+      "opg-023"
+    ],
+    [
+      "thm-048",
+      "opg-023"
+    ],
+    [
+      "thm-004",
+      "thm-034"
+    ],
+    [
+      "thm-004",
+      "opg-009"
+    ],
+    [
+      "thm-034",
+      "opg-009"
+    ],
+    [
+      "thm-034",
+      "opg-019"
+    ],
+    [
+      "opg-009",
+      "opg-019"
+    ],
+    [
+      "opg-009",
+      "opg-022"
+    ],
+    [
+      "opg-019",
+      "opg-022"
+    ],
+    [
+      "opg-019",
+      "opg-026"
+    ],
+    [
+      "opg-022",
+      "opg-026"
+    ],
+    [
+      "opg-022",
+      "opg-034"
+    ],
+    [
+      "opg-026",
+      "opg-034"
+    ],
+    [
+      "opg-026",
+      "opg-043"
+    ],
+    [
+      "opg-034",
+      "opg-043"
+    ],
+    [
+      "thm-006",
+      "thm-016"
+    ],
+    [
+      "thm-006",
+      "thm-023"
+    ],
+    [
+      "thm-016",
+      "thm-023"
+    ],
+    [
+      "thm-016",
+      "thm-024"
+    ],
+    [
+      "thm-023",
+      "thm-024"
+    ],
+    [
+      "thm-023",
+      "thm-025"
+    ],
+    [
+      "thm-024",
+      "thm-025"
+    ],
+    [
+      "thm-024",
+      "opg-032"
+    ],
+    [
+      "thm-025",
+      "opg-032"
+    ],
+    [
+      "thm-007",
+      "thm-008"
+    ],
+    [
+      "thm-007",
+      "thm-013"
+    ],
+    [
+      "thm-008",
+      "thm-013"
+    ],
+    [
+      "thm-008",
+      "thm-026"
+    ],
+    [
+      "thm-013",
+      "thm-026"
+    ],
+    [
+      "thm-013",
+      "thm-029"
+    ],
+    [
+      "thm-026",
+      "thm-029"
+    ],
+    [
+      "thm-026",
+      "thm-033"
+    ],
+    [
+      "thm-029",
+      "thm-033"
+    ],
+    [
+      "thm-029",
+      "thm-038"
+    ],
+    [
+      "thm-033",
+      "thm-038"
+    ],
+    [
+      "thm-010",
+      "thm-018"
+    ],
+    [
+      "thm-010",
+      "opg-021"
+    ],
+    [
+      "thm-018",
+      "opg-021"
+    ],
+    [
+      "thm-011",
+      "thm-012"
+    ],
+    [
+      "thm-011",
+      "thm-036"
+    ],
+    [
+      "thm-012",
+      "thm-036"
+    ],
+    [
+      "thm-012",
+      "opg-020"
+    ],
+    [
+      "thm-036",
+      "opg-020"
+    ],
+    [
+      "thm-014",
+      "thm-031"
+    ],
+    [
+      "thm-017",
+      "thm-035"
+    ],
+    [
+      "thm-017",
+      "thm-044"
+    ],
+    [
+      "thm-035",
+      "thm-044"
+    ],
+    [
+      "thm-035",
+      "opg-028"
+    ],
+    [
+      "thm-044",
+      "opg-028"
+    ],
+    [
+      "thm-019",
+      "opg-015"
+    ],
+    [
+      "thm-040",
+      "thm-041"
+    ],
+    [
+      "thm-040",
+      "opg-001"
+    ],
+    [
+      "thm-041",
+      "opg-001"
+    ],
+    [
+      "thm-043",
+      "thm-049"
+    ],
+    [
+      "thm-047",
+      "opg-012"
+    ],
+    [
+      "thm-047",
+      "opg-013"
+    ],
+    [
+      "opg-012",
+      "opg-013"
+    ]
+  ]
+}

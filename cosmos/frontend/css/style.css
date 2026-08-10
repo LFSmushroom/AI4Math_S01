@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    background: #000;
+    font-family: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+    color: #e0e0e0;
+    user-select: none;
+}
+
+#canvas-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+
+canvas {
+    display: block;
+}
+
+/* ── Top bar ─────────────────────────────────── */
+#top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    pointer-events: none;
+}
+
+#top-bar > * {
+    pointer-events: auto;
+}
+
+#title {
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    background: linear-gradient(135deg, #7ec8f8, #c084fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+#title .subtitle {
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    display: block;
+    margin-top: 2px;
+}
+
+#gh-link {
+    color: #888;
+    text-decoration: none;
+    font-size: 13px;
+    transition: color 0.3s;
+}
+#gh-link:hover {
+    color: #c084fc;
+}
+
+/* ── Simulate toggle ─────────────────────────── */
+#simulate-toggle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 8px;
+    padding: 8px 14px;
+    font-size: 13px;
+    color: #aaa;
+}
+
+#simulate-toggle label {
+    cursor: pointer;
+}
+
+#simulate-toggle input[type="checkbox"] {
+    accent-color: #7ec8f8;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+/* ── Info panel ───────────────────────────────── */
+#info-panel {
+    position: fixed;
+    z-index: 20;
+    background: rgba(10, 12, 24, 0.92);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 14px;
+    padding: 24px;
+    width: 340px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.6);
+    transition: opacity 0.3s, transform 0.3s;
+    transform: translate(-50%, 20px);
+    pointer-events: auto;
+}
+
+#info-panel.hidden {
+    opacity: 0;
+    transform: translate(-50%, 40px);
+    pointer-events: none;
+}
+
+#info-panel .node-name {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #fff;
+}
+
+#info-panel .node-area {
+    display: inline-block;
+    font-size: 11px;
+    background: rgba(126, 200, 248, 0.2);
+    color: #7ec8f8;
+    padding: 3px 10px;
+    border-radius: 20px;
+    margin-bottom: 12px;
+}
+
+#info-panel .node-desc {
+    font-size: 14px;
+    color: #bbb;
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+
+#info-panel .node-meta {
+    display: flex;
+    gap: 16px;
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 18px;
+}
+
+#info-panel .node-meta span {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+/* ── Solve button ─────────────────────────────── */
+#solve-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+    background: linear-gradient(135deg, #7ec8f8, #c084fc);
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+#solve-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 20px rgba(126, 200, 248, 0.4);
+}
+
+#solve-btn:disabled {
+    background: rgba(255, 255, 255, 0.1);
+    color: #666;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+#solve-btn.solving {
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+
+#panel-status {
+    font-size: 12px;
+    color: #888;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#panel-status.success {
+    color: #4ade80;
+}
+
+#panel-status.failed {
+    color: #f87171;
+}
+
+/* ── Bottom hint ──────────────────────────────── */
+#bottom-hint {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.3);
+    letter-spacing: 1px;
+    pointer-events: none;
+}
+
+/* ── Toast notification ───────────────────────── */
+#toast {
+    position: fixed;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 30;
+    background: rgba(74, 222, 128, 0.15);
+    border: 1px solid rgba(74, 222, 128, 0.4);
+    color: #4ade80;
+    padding: 10px 24px;
+    border-radius: 8px;
+    font-size: 14px;
+    opacity: 0;
+    transition: opacity 0.5s;
+    pointer-events: none;
+}
+
+#toast.visible {
+    opacity: 1;
+}
+
+#toast.error {
+    background: rgba(248, 113, 113, 0.15);
+    border-color: rgba(248, 113, 113, 0.4);
+    color: #f87171;
+}
